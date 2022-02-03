@@ -23,7 +23,6 @@ resource "aws_security_group" "hashicups-backend" {
   name   = "hashicups-backend"
   vpc_id = module.vpc.vpc_id
 
-  # SSH access from the VPC
   ingress {
     from_port   = 8080
     to_port     = 8080
