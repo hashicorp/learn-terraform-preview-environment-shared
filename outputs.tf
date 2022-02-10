@@ -13,3 +13,7 @@ output "hashicups_security_group_id" {
 output "ssl_cert_arn" {
   value = aws_acm_certificate.cert.arn
 }
+
+output "vercel_project_id" {
+  value = vercel_project.hashicups.id
+}
