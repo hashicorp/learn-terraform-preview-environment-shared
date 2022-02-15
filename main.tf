@@ -74,5 +74,5 @@ resource "aws_acm_certificate" "cert" {
 
 resource "vercel_project" "hashicups" {
   name      = "hashicups"
-  framework = "create-react-app"
+  framework = "nextjs"
 }
